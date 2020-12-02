@@ -1,0 +1,152 @@
+
+.hello, .workhead, .worksquares, .myresume, .getintouchhead, .mebutton {
+  font-family: "DejaVu Sans Mono", monospace;
+  text-decoration: none;
+  color: #68686;
+  display: flex;
+  text-align: center;
+
+}
+
+.nav{
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: flex-end;
+  background: #c8a2c8;
+  box-shadow: 0 5px 10px grey;
+  left: 0;
+  top: 0;
+}
+
+.navl {
+  list-style: none;
+  display: flex;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.navl a {
+  display: block;
+  padding: 20px;
+  padding-top: 10px;
+  font-family: "DejaVu Sans Mono", monospace;
+  text-decoration: none;
+  color: white;
+}
+
+.navl a:hover {
+  color: grey;
+}
+
+.navl a:active {
+  color: black;
+}
+
+.hello {
+  padding-top: 100px;
+  font-style: italic;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hello > h1 {
+  font-size: 50px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px #c8a2c8;
+}
+
+.hello > h2 {
+  text-shadow: 1px 1px #c8a2c8;
+}
+
+.hello > p {
+  font-style: normal;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+.mywork {
+  padding-top: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.workhead {
+  align-items: center;
+  justify-content: center;
+}
+
+.worksquares {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+.worksquares a {
+  text-decoration: none;
+}
+
+.worksquares a > p{
+  color: #686868;
+}
+
+#workpic {
+  height: 350px;
+  width: 350px;
+  box-shadow: 3px 3px grey;
+  border-radius: 8px;
+}
+
+.worksquare {
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.myresume {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+
+.getintouch {
+  padding-top: 100px;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.getintouchhead {
+  justify-content: center;
+  font-size: 30px;
+  font-style: italic;
+  margin-bottom: 30px;
+  text-decoration: bold;
+}
+
+.getintouchlinks {
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.mebutton {
+  background-color: #c8a2c8;
+  font-family: "DejaVu Sans Mono", monospace;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px grey;
+  margin: 15px;
+}
